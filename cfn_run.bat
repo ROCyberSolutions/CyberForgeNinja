@@ -2,9 +2,9 @@
 :: Enhanced CyberForge Ninja Launcher with error checking
 
 setlocal
-set VENV_PATH=D:\Documents\Roman\PROJEKTY\ROCS\Lab\myvenv
+set VENV_PATH=Your path to venv 
 set PYTHON_PATH=%VENV_PATH%\Scripts\python.exe
-set SCRIPT_PATH=D:\Documents\Roman\PROJEKTY\Skrypty\Python\Hacker_Name\CyberForge\cfn.py
+set SCRIPT_PATH=Your path to CyberForge\cfn.py
 
 :: Check if files exist
 if not exist "%PYTHON_PATH%" (
